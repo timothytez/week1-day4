@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar sticky-top navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="foody.jpg"alt="" width="200px" height="200px" />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Food List
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Pizza</a></li>
+                    <ul>pepperoni</ul>
+                    <ul>cheese</ul>
+                    <ul>sausage</ul>
+                    <ul>supreme</ul>
+                    </a>
+                    </li>
+                <ul class="dropdown-menu"></ul>
+                    <li><a class="dropdown-item" href="#">Pasta</a></li>
+                    <ul>Spaghetti</ul>
+                    <ul>Fettuccine Alfredo</ul>
+                    <ul>Lasagna</ul>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Chicken</a></li>
+                    <ul>Hot, Mild</ul>
+                    <ul>Lemon Pepper</ul>
+                    <ul>Honey Barbeque</ul>
+                    <ul>Honey Obay</ul>
+                  <li><a class="dropdown-item" href="#">Subs</a></li>
+                    <ul>Cheese Steak</ul>
+                    <ul>Italian Cold Cut</ul>
+                    <ul>Meatball</ul>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Desserts</a></li>
+                    <ul>Chocolate Cake</ul>
+                    <ul>Cheese Cake</ul>
+                    <ul>Red Velvet Cake</ul>
+                    <ul>Apple Pie</ul>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pizza&wings.webp" class="d-block w-100" alt="" width="50px" height="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="sub.jpg" class="d-block w-100" alt="" width="50px" height="400px">
+          </div>
+          <div class="carousel-item">
+            <img src="pasta2.jpg" class="d-block w-100" alt=""width="50px" height="400px">
+        
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class="bg-primary pb-5 m-5 rounded-top-5 rounded-bottom-5">
+      <div class="container py-5">
+        <div class="row">
+            <div class="col bg-primary py-5">
+                <div class="card" style="width: 13rem">
+                    <img src="./pizza&wings.webp" class="card-img-top" alt="..." width="100px" />
+                    <div class="card-body">
+                      <h5 class="card-title">Special Deals</h5>
+                      <p class="card-text">Pizza and Wings</p>
+                    
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">2 Large Pizzas any 2 topping, 10 wings for $14.99</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Add to Cart</a>
+                      
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col bg-primary py-5">
+                <div class="card" style="width: 13rem">
+                    <img src="Pizza-and-Pasta.jpg" class="card-img-top" alt="auto" width="100px" />
+                    <div class="card-body">
+                      <h5 class="card-title">Special Deals</h5>
+                      <p class="card-text">Pasta and Pizza</p>
+                    
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Buy Any 2 Pasta Dish Get A Free Medium Pizza Free for $16.99</li>
+                    </ul>
+                    <div class="card-body">
+                      <a href="#" class="card-link">Add to Cart</a>
+                      
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <br>
+
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Pizza</th>
+            <th scope="col">Cheese</th>
+            <th scope="col">Pepperoni</th>
+            <th scope="col">Sausage</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Med</th>
+            <td>5.99</td>
+            <td>6.49</td>
+            <td>6.49</td>
+          </tr>
+          <tr>
+            <th scope="row">Lg</th>
+            <td>8.99</td>
+            <td>9.49</td>
+            <td>12.49</td>
+          </tr>
+          <tr>
+            <th scope="row">XL</th>
+            <td colspan="2">11.99</td>
+            <td>12.49</td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      
+      <div class="input-group mb-3">
+        <label class="input-group-text" for="inputGroupSelect01">Chicken Wings</label>
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>Flavors</option>
+          <option value="1">Hot</option>
+          <option value="2">Mild</option>
+          <option value="3">Lemon Pepper</option>
+          <option value="4">Honey Obay</option>
+          <option value="5">Honey Barbeque</option>
+          <option value="6">Garlic Parmesan</option>
+          <option value="7">Plain</option>
+        </select>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+
+    
+
+ 
+      
+    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script> 
+</body>
+
+<footer>
+    <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Customer Comments</label>
+      </div>
+</footer>
+</html>
